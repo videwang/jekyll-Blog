@@ -2,9 +2,13 @@
 ---
 /* code highlight plugin */
 @import "prism";
-
+/* bootstrap grid */
+@import "bootstrap/bootstrap-grid.scss";
 @import "base";
+@import "header";
 @import "table";
+/* pages */
+@import "index";
 
 code.highlighter-rouge {
     padding: 3px 6px;

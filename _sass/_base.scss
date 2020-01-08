@@ -1,1 +1,21 @@
 $main: #f2f2f2;
+
+/* font */
+$font-base: #343a40;
+$font-link: #222222;
+$font-active: #000000;
+
+html, body {
+    font-family: 'Merriweather', arial,"Hiragino Sans GB","Microsoft Yahei",sans-serif;
+    color: $font-base;
+}
+
+a, a:visited {
+    color: $font-link;
+}
+
+a:hover, a:active {
+    color: $font-active;
+    text-decoration: none;
+}
+
