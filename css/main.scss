@@ -3,6 +3,9 @@
 /* code highlight plugin */
 @import "prism";
 
+@import "base";
+@import "table";
+
 code.highlighter-rouge {
     padding: 3px 6px;
     border-radius: 5px;
