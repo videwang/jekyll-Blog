@@ -7,13 +7,46 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,700" rel="stylesheet">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
           integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/app.css">
     <title>{{ page.title }}</title>
 </head>
 <body>
-{{ content }}
+
+<header class="header">
+    <div class="header-in">
+        <div class="logo">
+            <img src="" alt="">
+            <span>Vianet</span>
+        </div>
+        <nav class="nav">
+            <a href="/">Home</a>
+            <a href="/tags">Tags</a>
+            <a href="/list">List</a>
+            <span>
+            <svg id="i-search" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="20" height="20"
+                 fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                <circle cx="14" cy="14" r="12"/>
+                <path d="M23 23 L30 30"/>
+            </svg>
+        </span>
+        </nav>
+    </div>
+</header>
+<div class="body">
+    <div class="body-in">
+        {{ content }}
+    </div>
+</div>
+<footer>
+    <div class="footer-in">
+        &copy; 2020 Vianet
+    </div>
+</footer>
+
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
@@ -25,5 +58,6 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
+<script src="/js/main.js"></script>
 </body>
 </html>

@@ -1,13 +1,25 @@
-$main: #f2f2f2;
+
+/* background */
+$background-base: #f2f2f2;
 
 /* font */
 $font-base: #343a40;
+$font-secondary: #666;
 $font-link: #222222;
 $font-active: #000000;
+
+*,*::after,*::before{
+    box-sizing: border-box;
+}
 
 html, body {
     font-family: 'Merriweather', arial,"Hiragino Sans GB","Microsoft Yahei",sans-serif;
     color: $font-base;
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 a, a:visited {
@@ -17,5 +29,24 @@ a, a:visited {
 a:hover, a:active {
     color: $font-active;
     text-decoration: none;
+}
+
+@mixin part-width {
+    @media screen and (max-width: 320px){
+        width: 100%;
+    }
+    @media screen and (max-width: 375px){
+        width: 100%;
+    }
+    @media screen and (max-width: 425px){
+        width: 100%;
+    }
+    @media screen and (max-width: 768px){
+        width: 100%;
+    }
+    @media screen and (max-width: 960px){
+        width: 100%;
+    }
+    width: 60rem;
 }
 

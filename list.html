@@ -1,0 +1,16 @@
+---
+layout: 'base'
+---
+
+<div class="post-list">
+    {% for post in site.posts %}
+    <a href="{{ post.url }}">
+    <div class="item">
+        <div class="title">
+            {{ post.title }}
+        </div>
+        <div class="info">{{ post.date | date_to_string }}</div>
+    </div>
+    </a>
+    {% endfor %}
+</div>

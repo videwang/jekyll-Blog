@@ -1,0 +1,35 @@
+.body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    .body-in {
+        @include part-width;
+        padding: 1rem;
+    }
+}
+
+
+.post-list {
+    width: 100%;
+
+    .item {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        padding: 0.5rem 1rem;
+
+        .title {
+
+        }
+
+        .info {
+            color: $font-secondary;
+            min-width: 7rem;
+            text-align: right;
+        }
+    }
+    .item:hover {
+        background: $background-base;
+    }
+}

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: test
+title: Privacy Policy Mini-Update
 ---
 
 

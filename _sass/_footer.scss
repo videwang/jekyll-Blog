@@ -1,0 +1,11 @@
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    .footer-in {
+        @include part-width;
+        display: flex;
+        padding: 1rem;
+    }
+}
