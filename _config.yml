@@ -7,8 +7,11 @@
 sass:
   sass_dir: _sass
   style: compressed
+<<<<<<< HEAD
 #defaults:
 #  - scope:
 #      path: "assets/img"
 #    values:
 #      image: true
+=======
+>>>>>>> c7f56339d493a1abdb528809726223df1a444f0c
